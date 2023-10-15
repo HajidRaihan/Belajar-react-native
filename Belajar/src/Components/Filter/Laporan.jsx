@@ -13,7 +13,6 @@ const Laporan = () => {
   const [checked, setChecked] = useState('first');
   const [value, setValue] = useState('first');
 
-  const [selectedId, setSelectedId] = useState();
   return (
     <View style={styles.riwayatWrapper}>
       <Text style={styles.title}>FIlter Laporan Masalah</Text>
